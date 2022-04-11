@@ -1,0 +1,29 @@
+
+
+###
+
+GET http://localhost:3000/api/events
+
+###
+
+POST http://localhost:3000/api/events Content-Type: application/json
+
+{
+    "titulo": "Batman", "description": "Superheroe", "genero": "Superheroes"
+
+}
+
+###
+
+GET http://localhost:3000/api/events/
+
+###
+
+PUT http://localhost:3000/api/events/ Content-Type: application/json
+
+{
+    "titulo": "Ryan Ray", "descripcion": "Snr. Developer", "priority": "Rome"
+
+}
+
+### DELETE http://localhost:3000/api/events/
