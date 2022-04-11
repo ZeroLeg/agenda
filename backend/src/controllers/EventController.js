@@ -15,7 +15,7 @@ eventCtrl.createEvent = async (req, res) => {
     priority: req.body.priority
   });
   await event.save();
-  res.json({ status: "Event added" });
+  res.send({ status: "Event added" });
 };
 
 eventCtrl.getEvent = async (req, res) => {

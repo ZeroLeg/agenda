@@ -12,6 +12,6 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api/peliculas", require("./routes/peliculas.routes"));
+app.use("/api/events", require("./routes/events.routes"));
 
 module.exports = app;
